@@ -1,0 +1,12 @@
+Source: oslo-vmware
+Section: python
+Priority: optional
+Maintainer: Vishvananda Ishaya <vishvananda@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), python-setuptools, python-all (>= 2.6.6-3~), python-d2to1,
+ python-pbr
+Standards-Version: 3.9.4
+
+Package: python-oslo.vmware
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: Messaging for openstack
